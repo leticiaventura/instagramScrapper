@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="64abf8a9-1fab-4cf7-b28b-859ce489f572" ChangeDateTime="08/09/2019 13:33:32">
+    <Property Name="ElementName" Value="[dbo].[TBCategory].[category_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBCategory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4654f573-1e56-41c5-9d9a-a9efccfcf849" ChangeDateTime="08/09/2019 13:33:47">
+    <Property Name="ElementName" Value="[dbo].[TBCategory].[id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBCategory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="category_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b30cb8ac-2976-4cc7-9cca-a25b68fd1e8b" ChangeDateTime="08/09/2019 14:34:21">
+    <Property Name="ElementName" Value="[dbo].[TBCategory].[category_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBCategory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d1ded6d3-01f9-49f2-a11a-ca99ef7dd56c" ChangeDateTime="08/09/2019 14:34:31">
+    <Property Name="ElementName" Value="[dbo].[TBLocation].[location_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBLocation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="30f6b476-c823-41b6-9b08-a1b26fdd5f25" ChangeDateTime="08/09/2019 14:34:54">
+    <Property Name="ElementName" Value="[dbo].[TBVenue].[venue_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBVenue]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="is" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1ba35644-4f91-4467-959e-83f825c229aa" ChangeDateTime="08/09/2019 14:35:04">
+    <Property Name="ElementName" Value="[dbo].[TBVenue].[is]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBVenue]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="822c1c4f-d792-4562-9597-1f8b0ecb3104" ChangeDateTime="08/12/2019 02:56:39">
+    <Property Name="ElementName" Value="[dbo].[TBVenue_TBCategory].[category_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBVenue_TBCategory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="category_id" />
+  </Operation>
+</Operations>
